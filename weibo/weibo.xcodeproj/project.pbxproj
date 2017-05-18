@@ -16,6 +16,7 @@
 		DC0E48651ECDF81400DBF781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0E48631ECDF81400DBF781 /* LaunchScreen.storyboard */; };
 		DC0E48701ECDF81400DBF781 /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E486F1ECDF81400DBF781 /* weiboTests.m */; };
 		DC0E487B1ECDF81400DBF781 /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E487A1ECDF81400DBF781 /* weiboUITests.m */; };
+		DC0E488A1ECDFB5000DBF781 /* cat.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0E48891ECDFB5000DBF781 /* cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DC0E48761ECDF81400DBF781 /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0E487A1ECDF81400DBF781 /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		DC0E487C1ECDF81400DBF781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0E48881ECDFB5000DBF781 /* cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cat.h; sourceTree = "<group>"; };
+		DC0E48891ECDFB5000DBF781 /* cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				DC0E48661ECDF81400DBF781 /* Info.plist */,
 				DC0E485E1ECDF81400DBF781 /* weibo.xcdatamodeld */,
 				DC0E48521ECDF81400DBF781 /* Supporting Files */,
+				DC0E48881ECDFB5000DBF781 /* cat.h */,
+				DC0E48891ECDFB5000DBF781 /* cat.m */,
 			);
 			path = weibo;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0E488A1ECDFB5000DBF781 /* cat.m in Sources */,
 				DC0E48601ECDF81400DBF781 /* weibo.xcdatamodeld in Sources */,
 				DC0E485A1ECDF81400DBF781 /* ViewController.m in Sources */,
 				DC0E48571ECDF81400DBF781 /* AppDelegate.m in Sources */,
